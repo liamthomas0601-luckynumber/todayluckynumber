@@ -40,7 +40,7 @@
     </header>
 
     <section class="section">
-      <h2>Daily Energy Guide</h2>
+      <h2>Guide for Daily Energy</h2>
       <div class="cards">
         <div class="card" v-for="n in 6" :key="n">
           <h3>Positive Energy {{n}}</h3>
@@ -59,7 +59,7 @@
         <h3>Question {{n}}</h3>
         <p>
           Lucky numbers are often used as entertainment and personal inspiration.
-          Different traditions use different methods.
+          Different traditions use various methods.
         </p>
       </div>
     </section>
@@ -67,7 +67,7 @@
     <section class="section">
       <h2>About Lucky Numbers</h2>
       <p v-for="n in 60" :key="'p'+n">
-        Lucky number systems appear in many cultures and are commonly used
+        Lucky number systems appear in different cultures and are commonly used
         for fun, reflection, and symbolic meaning. This content section is
         intentionally extended for SEO content and page structure.
       </p>
